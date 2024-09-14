@@ -13,5 +13,3 @@ app.use(cors());
 app.use("/api",placeRoutes);
 const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
-res.send('Ini adalah teks dari backend untuk tes!');
-
