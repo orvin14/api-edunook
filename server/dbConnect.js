@@ -14,6 +14,5 @@ const dbConnect = () => {
         console.log("Connection to database disconnected")
 
     });
-};
-
-module.exports=dbConnect;
+}
+module.exports = dbConnect;
